@@ -38,6 +38,12 @@
         "disponibile": true
       },
       {
+        "id": "modello-4",
+        "nome": "Modello 4 - Rana",
+        "immagine": "/{public/images,api,data}/accendini-rana.png",
+        "disponibile": true
+      },
+      {
         "id": "modello-2",
         "nome": "Modello 2 - Teschio",
         "immagine": "/images/porta-accendino-2.jpg",
