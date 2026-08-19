@@ -1,0 +1,8 @@
+{
+  "name": "shop-3d-print",
+  "version": "1.0.0",
+  "description": "Negozio online per vendita prodotti stampati in 3D con carrello e pagamento Stripe",
+  "dependencies": {
+    "stripe": "^14.21.0"
+  }
+}
