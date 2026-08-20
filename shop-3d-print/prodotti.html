@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prodotti — Le Mie Stampe 3D</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="nav-logo">Le Mie Stampe 3D</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="prodotti.html" class="active">Prodotti</a></li>
+      <li><a href="contatti.html">Contatti</a></li>
+      <li><button id="nav-cart-btn">🛒 <span id="nav-cart-count">0</span></button></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>Catalogo</h1>
+    <p>Tutti i pezzi disponibili al momento, pronti per l'acquisto online.</p>
+  </div>
+
+  <main class="grid" id="product-grid">
+    <!-- Prodotti generati da app.js -->
+  </main>
+
+  <footer>
+    © 2026 Le Mie Stampe 3D — Tutti i diritti riservati
+  </footer>
+
+  <div id="cart-overlay" class="overlay hidden"></div>
+  <aside id="cart-drawer" class="cart-drawer hidden">
+    <div class="cart-header">
+      <h2>Il tuo carrello</h2>
+      <button id="cart-close">✕</button>
+    </div>
+    <div id="cart-items"></div>
+    <div class="cart-footer">
+      <p>Totale: <strong id="cart-total">€0.00</strong></p>
+      <button id="checkout-btn">Vai al pagamento</button>
+      <p id="checkout-error" class="error"></p>
+    </div>
+  </aside>
+
+  <script src="nav.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
